@@ -1,0 +1,318 @@
+/* Google Fonts:    
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cuerpo{
+    background-color: #FAE5D3;
+}
+
+.cabecera{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.cabecera__imagen{
+    margin: 1px auto;
+    align-self: center;
+    transform: translate(-10%);
+}
+
+.cabecera__navegacion__lista{
+    list-style: none;
+    text-align: center;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 5px;
+}
+
+.cabecera__navegacion__lista li{
+    transition: transform 1s;
+}
+
+.cabecera__navegacion__lista li:hover{
+    transform: scale(1.2);
+}
+
+.cabecera__lista__item{
+    margin: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color:white;
+}
+
+.cabecera__item__ancord{
+    text-decoration: none;
+    color: white;
+}
+
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeriaproductosdiv{
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 400px 400px;
+    align-items: center;
+    gap: 50px 30px;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+.galeria__imagen__temporada{
+    height: 600px;
+    width: 500px;
+    border: solid 3px black;
+}
+
+.galeria__imagen{
+    height: 300px;
+    width: 300px;
+    margin: 0px 0px 150px 0px;
+    border: solid 3px black;
+}
+
+.seguinosinstagram{
+text-align: center;
+}
+
+.textoseguinos{
+    font-weight: 600px;
+    letter-spacing: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+}
+
+.main__instagramlogomed{
+    height: 85px;
+    width: 85px;
+}
+
+.instagram__publicacion{
+    display: flex;
+    justify-content: center;
+}
+
+
+.formulario{
+    margin-bottom: 100px;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #000;
+    width: 100%;
+    margin-bottom: 0;
+    background-color: #000000
+}
+
+.textofooter{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.textocelular{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+.textomail{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+.barraNavegacionFooter__lista{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.footer__item__ancord{
+    text-decoration: none;
+    color: white;
+    line-height: 20px;    
+}
+
+
+.footer__redessociales__lista{
+    list-style: none;
+}
+
+.footer__lista__instagramchico{
+    height: 30px;
+    width: 30px;
+}
+
+.footer__contactanos__lista{
+    list-style: none;
+}
+
+.footer__lista__whatsappchico{
+    height: 20px;
+    width: 20px;
+}
+
+.footer__lista__mailchico{
+    height: 25px;
+    width: 25px;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+.formulario{
+    margin-left: 1000px;
+}
+
+
+.galeriaproductos{
+    height: 400px;
+    width: 400px;
+    border: solid 3px black;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.cardsFotos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.veranoinvierno{
+    margin-top: 50px;
+
+}
+
+.verano{
+    border: solid 4px black;
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+    text-align: center;
+    padding: 4px;
+}
+
+.galeriacolecciones{
+    height: 600px;
+    width: 500px;
+    border: solid 4px black;
+    margin-top: 50px;
+}
+
+.conteiner{
+    position: relative;
+    overflow: hidden;
+}
+
+.TituloQuienesSomos {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    font-size: 34px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    margin-left: 750px;
+}
+
+.texto__northkids{
+    font-weight: 700;
+    color: black;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.InfoQuienesSomos {
+    text-align: left;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 0 0 10px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 400px;
+}
+
+.fondoquienessomos{
+    width: 100%;
+    height: 125px;
+    margin-top: 20px;
+}
+
+.fotoquienessomosnorthkids{
+    margin-left: 800px;
+    height: 500px;
+    width: 500px;
+    border: solid 2px black;
+}
+
+
+.textoiniciocontacto{
+    text-align: center;
+}
+
+.formulario{
+    margin-top: -140px;
+}
+
+.contactanostodo{
+    margin-right: 800px;
+    margin-top: 70px;
+
+}
+
+
+.textocontactanos{
+    font-size: 34px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #2a2a2a;
+    letter-spacing: 5px;
+}
+
+.iconscontacto{
+    height: 30px;
+    width: 30px;
+    margin-top: 6px;
+}
+
+.datoscontacto{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 8px;
+}
