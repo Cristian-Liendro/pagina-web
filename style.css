@@ -21,13 +21,14 @@ font-family: 'Roboto', sans-serif;
 }
 
 .cabecera__imagen{
+    /* Listo para mergear animacion*/
     margin: 1px auto;
     align-self: center;
     transform: translate(-10%);
     animation-name: rotarImagen;
     animation-iteration-count: infinite;
-    animation-duration: 4s;
-    animation-delay: 2s;
+    animation-duration: 3s;
+    animation-delay: 3s;
 }
 
 @keyframes rotarImagen {
@@ -121,13 +122,18 @@ font-family: 'Roboto', sans-serif;
 
 .seguinosinstagram{
 text-align: center;
+background-image: linear-gradient(white, black);
 }
 
+
 .textoseguinos{
+    /*listo para mergear*/
     font-weight: 600px;
     letter-spacing: 8px;
     font-family: 'Roboto', sans-serif;
     font-size: xx-large;
+    color: white;
+    background-image: linear-gradient(white,black);
 }
 
 .main__instagramlogomed{
