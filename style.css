@@ -22,7 +22,8 @@ font-family: 'Roboto', sans-serif;
 .cabecera__imagen{
     margin: 1px auto;
     align-self: center;
-    transform: translate(-10%);
+    display: block;
+    max-width: 100%;
 }
 
 .cabecera__navegacion__lista{
