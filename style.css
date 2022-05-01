@@ -37,7 +37,9 @@ font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
 
-
+.nav-item{
+    padding: 0px 40px;
+}
 
 .main{
     display: flex;
