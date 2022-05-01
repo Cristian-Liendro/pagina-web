@@ -24,6 +24,8 @@ font-family: 'Roboto', sans-serif;
     align-self: center;
     display: block;
     max-width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .nav-link{
