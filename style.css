@@ -17,36 +17,12 @@ font-family: 'Roboto', sans-serif;
     flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: wrap;
-
 }
 
 .cabecera__imagen{
-    /* Listo para mergear animacion*/
     margin: 1px auto;
     align-self: center;
     transform: translate(-10%);
-    animation-name: rotarImagen;
-    animation-iteration-count: infinite;
-    animation-duration: 3s;
-    animation-delay: 3s;
-}
-
-@keyframes rotarImagen {
-    0%{
-        transform: rotate(0deg);
-    }
-    25%{
-        transform: rotate(45deg)
-    }
-    50%{
-        transform: rotate(90deg)
-    }
-    75%{
-        transform: rotate(180deg)
-    }
-    100%{
-        transform: rotate(360deg)
-    }
 }
 
 .cabecera__navegacion__lista{
