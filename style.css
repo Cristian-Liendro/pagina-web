@@ -26,42 +26,18 @@ font-family: 'Roboto', sans-serif;
     max-width: 100%;
 }
 
-.cabecera__navegacion__lista{
-    list-style: none;
-    text-align: center;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 10px;
-    padding: 5px;
-}
-
-.cabecera__navegacion__lista li{
-    transition: transform 1s;
-}
-
-.cabecera__navegacion__lista li:hover{
-    transform: scale(1.2);
-    background-color: rgb(114, 25, 25);
-}
-
-.cabecera__lista__item{
-    margin: 15px;
-    font-size: 15px;
+.nav-link{
+    font-size: 20px;
     font-weight: 600;
     letter-spacing: 1px;
     font-family: 'Montserrat', sans-serif;
+    color: white;
     text-decoration: none;
-    color:white;
+}
+
+.nav-item{
     padding: 0px 40px;
 }
-
-.cabecera__item__ancord{
-    text-decoration: none;
-    color: white;
-}
-
 
 .main{
     display: flex;
