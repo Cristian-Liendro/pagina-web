@@ -17,13 +17,13 @@ font-family: 'Roboto', sans-serif;
     flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: wrap;
-
 }
 
 .cabecera__imagen{
     margin: 1px auto;
     align-self: center;
-    transform: translate(-10%);
+    display: block;
+    max-width: 100%;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -40,6 +40,7 @@ font-family: 'Roboto', sans-serif;
 .nav-item{
     padding: 0px 40px;
 }
+
 
 .main{
     display: flex;
@@ -79,7 +80,6 @@ font-family: 'Roboto', sans-serif;
 
 .seguinosinstagram{
 text-align: center;
-background-image: linear-gradient(white, black);
 }
 
 
@@ -181,7 +181,6 @@ background-image: linear-gradient(white, black);
 }
 
 
-
 .galeriaproductos{
     height: 400px;
     width: 400px;
@@ -190,9 +189,16 @@ background-image: linear-gradient(white, black);
     margin-left: 40px;
 }
 
+.cardsFotos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .veranoinvierno{
     margin-top: 50px;
-    text-align: center;
 
 }
 
@@ -205,23 +211,17 @@ background-image: linear-gradient(white, black);
     padding: 4px;
 }
 
-/*bootstrap main de colecciones*/
-
-#galeriacolecciones img{
-    width: 100%;
-    height: 350px;
+.galeriacolecciones{
+    height: 600px;
+    width: 500px;
+    border: solid 4px black;
+    margin-top: 50px;
 }
 
-#galeriacolecciones .col-lg-4{
-    margin: 0;
-    padding: 25px;
+.conteiner{
+    position: relative;
+    overflow: hidden;
 }
-
-#galeriacolecciones img:hover{
-    border: 3px solid black;
-}
-
-
 
 .TituloQuienesSomos {
     text-align: center;
@@ -266,7 +266,6 @@ background-image: linear-gradient(white, black);
 }
 
 
-
 .textoiniciocontacto{
     text-align: center;
 }
@@ -280,6 +279,7 @@ background-image: linear-gradient(white, black);
     margin-top: 70px;
 
 }
+
 
 .textocontactanos{
     font-size: 34px;
