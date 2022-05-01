@@ -43,6 +43,7 @@ font-family: 'Roboto', sans-serif;
 
 .cabecera__navegacion__lista li:hover{
     transform: scale(1.2);
+    background-color: rgb(114, 25, 25);
 }
 
 .cabecera__lista__item{
@@ -53,6 +54,7 @@ font-family: 'Roboto', sans-serif;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color:white;
+    padding: 0px 40px;
 }
 
 .cabecera__item__ancord{
@@ -99,7 +101,6 @@ font-family: 'Roboto', sans-serif;
 
 .seguinosinstagram{
 text-align: center;
-background-image: linear-gradient(white, black);
 }
 
 
@@ -110,7 +111,6 @@ background-image: linear-gradient(white, black);
     font-family: 'Roboto', sans-serif;
     font-size: xx-large;
     color: white;
-    background-image: linear-gradient(white,black);
 }
 
 .main__instagramlogomed{
