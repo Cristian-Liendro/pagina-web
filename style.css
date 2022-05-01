@@ -105,12 +105,11 @@ text-align: center;
 
 
 .textoseguinos{
-    /*listo para mergear*/
     font-weight: 600px;
     letter-spacing: 8px;
     font-family: 'Roboto', sans-serif;
     font-size: xx-large;
-    color: white;
+    color: black;
 }
 
 .main__instagramlogomed{
