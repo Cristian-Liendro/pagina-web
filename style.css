@@ -109,23 +109,11 @@ text-align: center;
     margin-bottom: 100px;
 }
 
-.footer{
-    position: relative;
-    bottom: 0;
-    height: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background: #000;
-    width: 100%;
-    margin-bottom: 0;
-    background-color: #000000
-}
+
 
 .textofooter{
     font-family: 'Roboto', sans-serif;
     color: white;
-    margin-bottom: 20px;
 }
 
 .textocelular{
@@ -221,10 +209,7 @@ text-align: center;
     margin-top: 50px;
 }
 
-.conteiner{
-    position: relative;
-    overflow: hidden;
-}
+
 
 .TituloQuienesSomos {
     text-align: center;
