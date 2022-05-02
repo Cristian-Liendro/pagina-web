@@ -28,6 +28,10 @@ font-family: 'Roboto', sans-serif;
     margin-top: 20px;
 }
 
+.navbar{
+    padding: 2px;
+}
+
 .nav-link{
     font-size: 20px;
     font-weight: 600;
