@@ -109,7 +109,27 @@ text-align: center;
     margin-bottom: 100px;
 }
 
+footer{
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    color: white;
+    padding: 100px 0px 30px;
 
+}
+
+.row{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.col{
+    padding: 10px;
+}
 
 .textofooter{
     font-family: 'Roboto', sans-serif;
