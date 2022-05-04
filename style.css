@@ -219,7 +219,10 @@ footer{
     margin-top: 50px;
 }
 
-
+.preciogaleria{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
 
 #galeria img{
     width: 100%;
@@ -232,6 +235,21 @@ footer{
     padding: 25px;
 }
 
+.text-left{
+    margin-left: 70px;
+    margin-right: -70px;
+    margin-top: 23px;
+    text-align: center;
+}
+
+.talles{
+    margin-top: 200px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.categorias{
+    font-family: 'Montserrat', sans-serif;
+}
 .TituloQuienesSomos {
     text-align: center;
     position: absolute;
