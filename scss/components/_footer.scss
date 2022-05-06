@@ -1,0 +1,86 @@
+.footer{
+    position: relative;
+    bottom: 0;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: $color-secundario;
+    width: 100%;
+    margin-bottom: 0;
+    background-color: $color-secundario;
+
+    .textofooter{
+        font-family: $fuente-secundaria;
+        color: $color-blanco;
+        margin-bottom: 20px;
+    }
+
+    .barraNavegacionFooter__lista{
+        list-style: $list-style;
+        text-decoration: $text-decoration;
+        font-family: $fuente-secundaria;
+        font-size: 14px;
+
+        .footer__item__ancord{
+            text-decoration: $text-decoration;
+            color: $color-blanco;
+            line-height: 20px;    
+        }
+    }
+
+    .footer__redessociales__lista{
+        list-style: $list-style;
+
+        .footer__lista__instagramchico{
+            height: 30px;
+            width: 30px;
+        }
+    }
+
+    .footer__contactanos__lista{
+        list-style: $list-style;
+
+        .footer__lista__whatsappchico{
+            height: 20px;
+            width: 20px;
+
+            .textocelular{
+                font-family: $fuente-secundaria;
+                font-size: 14px;
+                color: $color-blanco;
+            }
+        }
+
+        .footer__lista__mailchico{
+            height: 25px;
+            width: 25px;
+            margin-top: 10px;
+            margin-bottom: 1px;
+
+            .textomail{
+                font-family: $fuente-secundaria;
+                font-size: 14px;
+                color: $color-blanco;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

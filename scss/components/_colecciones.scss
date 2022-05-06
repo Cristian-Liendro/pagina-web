@@ -1,0 +1,18 @@
+.cuerpo{
+    background-color: $color-principal;
+}
+
+#galeriacolecciones img{
+    width: 100%;
+    height: 350px;
+
+    &:hover{
+        border: 3px $border-tipo $color-secundario;
+    }
+}
+
+#galeriacolecciones .col-lg-4{
+    margin: 0;
+    padding: 25px;
+}
+
