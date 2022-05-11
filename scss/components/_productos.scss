@@ -1,0 +1,34 @@
+.preciogaleria{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.preciogaleria:hover{
+    color: red;
+}
+
+#galeria img{
+    width: 100%;
+    height: 350px;
+    border: solid 3px black;
+}
+
+#galeria .col-lg-4{
+    margin: 0;
+    padding: 25px;
+}
+
+.text-left{
+    margin-left: 70px;
+    margin-top: 23px;
+    text-align: center;
+}
+
+.talles{
+    margin-top: 200px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.categorias{
+    font-family: 'Montserrat', sans-serif;
+}
