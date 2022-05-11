@@ -1,9 +1,23 @@
-$color-principal: #FAE5D3;
-$color-secundario: black;
-$color-blanco: white;
 $border-tipo: solid;
 $fuente-principal: 'Montserrat', sans-serif;
 $fuente-secundaria: 'Roboto', sans-serif;
 $list-style: none;
 $text-decoration: none;
 $text-align: center;
+
+
+$colores:(
+    color-principal: #FAE5D3,
+    color-secundario: black,
+    color-tercero: white,
+);
+
+%footerletra {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+};
+
+@mixin flexbox ($justify){
+    display: flex;
+    justify-content: $justify;
+}

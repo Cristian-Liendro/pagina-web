@@ -1,5 +1,19 @@
 .cuerpo{
-    background-color: $color-principal;
+    background-color: map-get($colores, color-principal);
+}
+
+.veranoinvierno{
+    margin-top: 30px;
+    text-align: $text-align;
+
+    .verano{
+        border: $border-tipo 4px map-get($colores, color-secundario);
+        background-color: map-get($colores, color-secundario);
+        color: map-get($colores, color-tercero);
+        margin-right: 10px;
+        text-align: $text-align;
+        padding: 4px;
+    }
 }
 
 #galeriacolecciones img{
@@ -7,7 +21,7 @@
     height: 350px;
 
     &:hover{
-        border: 3px $border-tipo $color-secundario;
+        border: 3px $border-tipo map-get($colores, color-secundario);
     }
 }
 

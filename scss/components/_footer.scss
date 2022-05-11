@@ -2,29 +2,27 @@
     position: relative;
     bottom: 0;
     height: 200px;
-    display: flex;
-    justify-content: space-around;
+    @include flexbox(space-around);
     align-items: center;
-    background: $color-secundario;
+    background: map-get($colores, color-secundario);
     width: 100%;
     margin-bottom: 0;
-    background-color: $color-secundario;
+    background-color: map-get($colores, color-secundario);
 
     .textofooter{
         font-family: $fuente-secundaria;
-        color: $color-blanco;
+        color: map-get($colores, color-tercero);
         margin-bottom: 20px;
     }
 
     .barraNavegacionFooter__lista{
         list-style: $list-style;
         text-decoration: $text-decoration;
-        font-family: $fuente-secundaria;
-        font-size: 14px;
+        @extend %footerletra;
 
         .footer__item__ancord{
             text-decoration: $text-decoration;
-            color: $color-blanco;
+            color: map-get($colores, color-tercero);
             line-height: 20px;    
         }
     }
@@ -46,9 +44,8 @@
             width: 20px;
 
             .textocelular{
-                font-family: $fuente-secundaria;
-                font-size: 14px;
-                color: $color-blanco;
+                @extend %footerletra;
+                color: map-get($colores, color-tercero);
             }
         }
 
@@ -59,9 +56,8 @@
             margin-bottom: 1px;
 
             .textomail{
-                font-family: $fuente-secundaria;
-                font-size: 14px;
-                color: $color-blanco;
+                @extend %footerletra;
+                color: map-get($colores, color-tercero);
             }
         }
     }

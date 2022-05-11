@@ -1,7 +1,6 @@
 .cabecera{
-    display: flex;
+    @include flexbox(space-evenly);
     flex-direction: column;
-    justify-content: space-evenly;
     flex-wrap: wrap;
 
     .cabecera__imagen{
@@ -24,28 +23,14 @@
                 font-weight: 600;
                 letter-spacing: 1px;
                 font-family: $fuente-principal;
-                color: $color-blanco;
+                color: map-get($colores, color-tercero);
                 text-decoration: $text-decoration;
             }
         }
     }
-
+    
     .textoinicio{
         text-align: $text-align;
-    }
-
-    .veranoinvierno{
-        margin-top: 30px;
-        text-align: $text-align;
-
-        .verano{
-            border: $border-tipo 4px $color-secundario;
-            background-color: $color-secundario;
-            color: $color-blanco;
-            margin-right: 10px;
-            text-align: $text-align;
-            padding: 4px;
-        }
     }
 }
 

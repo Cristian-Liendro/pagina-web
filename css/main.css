@@ -1,7 +1,11 @@
+.footer .barraNavegacionFooter__lista, .footer .footer__contactanos__lista .footer__lista__whatsappchico .textocelular, .footer .footer__contactanos__lista .footer__lista__mailchico .textomail {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px; }
+
 .cabecera {
   display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
+  flex-direction: column;
   flex-wrap: wrap; }
   .cabecera .cabecera__imagen {
     margin: 1px auto;
@@ -23,19 +27,20 @@
         text-decoration: none; }
   .cabecera .textoinicio {
     text-align: center; }
-  .cabecera .veranoinvierno {
-    margin-top: 30px;
-    text-align: center; }
-    .cabecera .veranoinvierno .verano {
-      border: solid 4px black;
-      background-color: black;
-      color: white;
-      margin-right: 10px;
-      text-align: center;
-      padding: 4px; }
 
 .cuerpo {
   background-color: #FAE5D3; }
+
+.veranoinvierno {
+  margin-top: 30px;
+  text-align: center; }
+  .veranoinvierno .verano {
+    border: solid 4px black;
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+    text-align: center;
+    padding: 4px; }
 
 #galeriacolecciones img {
   width: 100%;
@@ -49,8 +54,8 @@
 
 .main {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
+  justify-content: center;
+  flex-wrap: wrap; }
 
 .footer {
   position: relative;
@@ -69,9 +74,7 @@
     margin-bottom: 20px; }
   .footer .barraNavegacionFooter__lista {
     list-style: none;
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-size: 14px; }
+    text-decoration: none; }
     .footer .barraNavegacionFooter__lista .footer__item__ancord {
       text-decoration: none;
       color: white;
@@ -87,8 +90,6 @@
       height: 20px;
       width: 20px; }
       .footer .footer__contactanos__lista .footer__lista__whatsappchico .textocelular {
-        font-family: "Roboto", sans-serif;
-        font-size: 14px;
         color: white; }
     .footer .footer__contactanos__lista .footer__lista__mailchico {
       height: 25px;
@@ -96,6 +97,4 @@
       margin-top: 10px;
       margin-bottom: 1px; }
       .footer .footer__contactanos__lista .footer__lista__mailchico .textomail {
-        font-family: "Roboto", sans-serif;
-        font-size: 14px;
         color: white; }

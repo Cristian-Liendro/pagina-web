@@ -1,5 +1,4 @@
 .main{
-    display: flex;
+    @include flexbox(center);
     flex-wrap: wrap;
-    justify-content: center;
 }
