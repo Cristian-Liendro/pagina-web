@@ -73,12 +73,17 @@
   font-family: 'Montserrat', sans-serif; }
 
 .nombreproducto {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
   letter-spacing: 1px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   margin-top: 10px; }
+
+.nombreproducto:hover {
+  color: #7E4510;
+  cursor: pointer;
+  text-decoration: underline; }
 
 .precioproducto {
   font-size: 21px;
@@ -95,17 +100,45 @@
   margin: 0;
   padding: 25px; }
 
-.text-left {
-  margin-left: 70px;
-  margin-top: 23px;
-  text-align: center; }
+.listaproductos {
+  display: block;
+  margin-top: 70px; }
+
+.listaproductos li {
+  font-size: 16px;
+  text-align: left;
+  list-style: none;
+  text-decoration: none;
+  padding-left: 0;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: black;
+  opacity: .7;
+  transition: .3s ease opacity; }
+
+.listaproductos li:hover {
+  opacity: 1;
+  cursor: pointer; }
 
 .talles {
-  margin-top: 200px;
-  font-family: 'Montserrat', sans-serif; }
+  margin-top: 100px;
+  text-align: left; }
+
+.tallestexto {
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px; }
 
 .categorias {
-  font-family: 'Montserrat', sans-serif; }
+  text-align: left; }
+
+.categoriastexto {
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px; }
+
+.container {
+  padding: 45px 20px; }
 
 .cuerpo {
   background-color: #FAE5D3; }
