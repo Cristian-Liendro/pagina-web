@@ -102,19 +102,29 @@
 .veranoinvierno {
   margin-top: 30px;
   text-align: center; }
-  .veranoinvierno .verano {
+  .veranoinvierno .verano:hover {
     border: solid 4px black;
     background-color: black;
     color: white;
-    margin-right: 10px;
+    margin: 10px;
     text-align: center;
-    padding: 4px; }
+    padding: 4px;
+    cursor: pointer; }
+  .veranoinvierno .invierno:hover {
+    border: solid 4px black;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    padding: 4px;
+    cursor: pointer; }
 
 #galeriacolecciones img {
   width: 100%;
   height: 350px; }
   #galeriacolecciones img:hover {
-    border: 3px solid black; }
+    border: 3px solid black;
+    cursor: pointer; }
 
 #galeriacolecciones .col-lg-4 {
   margin: 0;

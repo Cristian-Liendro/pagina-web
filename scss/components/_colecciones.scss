@@ -6,13 +6,23 @@
     margin-top: 30px;
     text-align: $text-align;
 
-    .verano{
+    .verano:hover{
         border: $border-tipo 4px map-get($colores, color-secundario);
         background-color: map-get($colores, color-secundario);
         color: map-get($colores, color-tercero);
-        margin-right: 10px;
+        margin: 10px;
         text-align: $text-align;
         padding: 4px;
+        cursor: pointer;
+    }
+    .invierno:hover{
+        border: $border-tipo 4px map-get($colores, color-secundario);
+        background-color: map-get($colores, color-secundario);
+        color: map-get($colores, color-tercero);
+        margin: 10px;
+        text-align: $text-align;
+        padding: 4px;
+        cursor: pointer;
     }
 }
 
@@ -22,6 +32,7 @@
 
     &:hover{
         border: 3px $border-tipo map-get($colores, color-secundario);
+        cursor: pointer;
     }
 }
 
