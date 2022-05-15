@@ -111,70 +111,46 @@ text-align: center;
 
 footer{
     background-color: black;
+    padding: 50px 20px;
+}
+
+footer .container{
     width: 100%;
-    position: absolute;
-    color: white;
-    padding: 100px 0px 30px;
-
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-
-
-
-.textofooter{
+footer .componentesfooter h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    font-weight: 700px;
     font-family: 'Roboto', sans-serif;
     color: white;
 }
 
-.textocelular{
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    color: white;
-}
-
-.textomail{
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    color: white;
-}
-
-.barraNavegacionFooter__lista{
+footer .contenido{
     list-style: none;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
 }
 
-.footer__item__ancord{
+footer .contenido a{
     text-decoration: none;
     color: white;
-    line-height: 20px;    
+    opacity: .6;
+    line-height: 30px;
+    transition: .3s ease opacity;
 }
 
-
-.footer__redessociales__lista{
-    list-style: none;
+footer .contenido a:hover{
+    opacity: 1;
 }
 
-.footer__lista__instagramchico{
-    height: 30px;
-    width: 30px;
-}
-
-.footer__contactanos__lista{
-    list-style: none;
-}
-
-.footer__lista__whatsappchico{
-    height: 20px;
-    width: 20px;
-}
-
-.footer__lista__mailchico{
-    height: 25px;
-    width: 25px;
-    margin-top: 10px;
-    margin-bottom: 1px;
+footer .componentesfooter{
+    flex-basis: 18%;
 }
 
 .formulario{
@@ -325,4 +301,11 @@ footer{
 .datoscontacto{
     font-family: 'Roboto', sans-serif;
     margin-top: 8px;
+}
+
+@media only screen and (max-width: 600px){
+    footer .componentesfooter{
+        flex-basis: 80%;
+        margin: 0 auto;
+    }
 }
