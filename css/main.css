@@ -72,8 +72,19 @@
   text-align: center;
   font-family: 'Montserrat', sans-serif; }
 
-.preciogaleria:hover {
-  color: red; }
+.nombreproducto {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px; }
+
+.precioproducto {
+  font-size: 21px;
+  font-weight: 900;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif; }
 
 #galeria img {
   width: 100%;
