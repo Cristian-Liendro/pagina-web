@@ -153,6 +153,30 @@ footer .componentesfooter{
     flex-basis: 18%;
 }
 
+.footerwpp{
+    height: 30px;
+    width: 30px;
+    margin-left: 18px;
+}
+
+.footerinsta{
+    height: 30px;
+    width: 30px;
+    margin-left: 18px;
+}
+
+.footermail{
+    height: 30px;
+    width: 30px;
+    margin-left: 26px;
+}
+
+.textofooter{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left: -26px;
+}
+
 .formulario{
     margin-left: 1000px;
 }
