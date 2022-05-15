@@ -140,14 +140,9 @@ footer .contenido{
 footer .contenido a{
     text-decoration: none;
     color: white;
-    opacity: .6;
     line-height: 30px;
-    transition: .3s ease opacity;
 }
 
-footer .contenido a:hover{
-    opacity: 1;
-}
 
 footer .componentesfooter{
     flex-basis: 18%;
