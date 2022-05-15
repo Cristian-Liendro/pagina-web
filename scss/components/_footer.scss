@@ -1,68 +1,65 @@
-.footer{
-    position: relative;
-    bottom: 0;
-    height: 200px;
-    @include flexbox(space-around);
-    align-items: center;
-    background: map-get($colores, color-secundario);
-    width: 100%;
-    margin-bottom: 0;
-    background-color: map-get($colores, color-secundario);
-
-    .textofooter{
-        font-family: $fuente-secundaria;
-        color: map-get($colores, color-tercero);
-        margin-bottom: 20px;
-    }
-
-    .barraNavegacionFooter__lista{
-        list-style: $list-style;
-        text-decoration: $text-decoration;
-        @extend %footerletra;
-
-        .footer__item__ancord{
-            text-decoration: $text-decoration;
-            color: map-get($colores, color-tercero);
-            line-height: 20px;    
-        }
-    }
-
-    .footer__redessociales__lista{
-        list-style: $list-style;
-
-        .footer__lista__instagramchico{
-            height: 30px;
-            width: 30px;
-        }
-    }
-
-    .footer__contactanos__lista{
-        list-style: $list-style;
-
-        .footer__lista__whatsappchico{
-            height: 20px;
-            width: 20px;
-
-            .textocelular{
-                @extend %footerletra;
-                color: map-get($colores, color-tercero);
-            }
-        }
-
-        .footer__lista__mailchico{
-            height: 25px;
-            width: 25px;
-            margin-top: 10px;
-            margin-bottom: 1px;
-
-            .textomail{
-                @extend %footerletra;
-                color: map-get($colores, color-tercero);
-            }
-        }
-    }
+footer{
+    background-color: black;
+    padding: 50px 20px;
 }
 
+footer .container{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .componentesfooter h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    font-weight: 700px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+footer .contenido{
+    list-style: none;
+}
+
+footer .contenido a{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}
+
+
+footer .componentesfooter{
+    flex-basis: 18%;
+}
+
+.footerwpp{
+    height: 30px;
+    width: 30px;
+    margin-left: 18px;
+}
+
+.footerinsta{
+    height: 30px;
+    width: 30px;
+    margin-left: 18px;
+}
+
+.footermail{
+    height: 30px;
+    width: 30px;
+    margin-left: 26px;
+}
+
+.textofooter{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left: -26px;
+}
 
 
 
