@@ -1,22 +1,28 @@
-#galeriainicio img{
-    width: 100%;
-    height: 350px;
-    border: solid 3px black;
+
+.imageninicioprimaria{
+    height: 600px;
+    width: 500px;
+    border: solid 2px black;
 }
 
-#galeriainicio .col-lg-4{
-    margin: 0;
-    padding: 25px;
-    text-align: center;
+.imageniniciosecundaria{
+    height: 300px;
+    width: 300px;
+    border: solid 2px black;
 }
 
+.imageniniciotercera{
+    height: 300px;
+    width: 300px;
+    border: solid 2px black;
+}
 
+.inicio{
+    flex-direction: column;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
 
-
-
-
-
-.instagram__publicacion{
-    display: flex;
-    justify-content: center;
+.divimagenprimaria{
+align-items: center;
 }
