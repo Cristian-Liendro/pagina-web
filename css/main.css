@@ -229,14 +229,18 @@
   font-family: 'Roboto', sans-serif; }
 
 .contactotodo {
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  padding-left: 40px; }
 
 .localizacion {
-  height: 240px;
+  height: 280px;
   width: 450px; }
 
 .localizaciondiv {
   margin-top: 55px; }
+
+.divformulario {
+  padding-left: 250px; }
 
 .main {
   display: flex;
