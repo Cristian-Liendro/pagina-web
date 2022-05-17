@@ -3,12 +3,14 @@
     height: 600px;
     width: 500px;
     border: solid 2px black;
+    margin-left: 200px;
 }
 
 .imageniniciosecundaria{
     height: 300px;
     width: 300px;
     border: solid 2px black;
+    margin-top: 50px;
 }
 
 .imageniniciotercera{
@@ -19,10 +21,47 @@
 
 .inicio{
     flex-direction: column;
-    margin-top: 70px;
+    margin-top: 20px;
     margin-bottom: 70px;
+    padding: 50px;
 }
 
-.divimagenprimaria{
-align-items: center;
+
+.instagram__publicacion{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+
+.instagramlogomed{
+    height: 85px;
+    width: 85px;
+    margin-top: 250px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.textoseguinos{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 265px;
+    padding-left: 10px;
+}
+
+@media only screen and (min-width:360px) and (max-width:780px){
+    .imageninicioprimaria{
+        height: 400px;
+        width: 300px;
+        border: solid 2px black;
+        margin-left: 200px;
+    }
+    .imageniniciosecundaria{
+        height: 150px;
+        width: 150px;
+        border: solid 2px black;
+        flex-direction: column;
+    }
 }
