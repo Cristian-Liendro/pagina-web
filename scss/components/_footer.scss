@@ -19,7 +19,7 @@ footer .componentesfooter h3{
     letter-spacing: 1px;
     font-weight: 700px;
     font-family: 'Roboto', sans-serif;
-    color: white;
+    color: map-get($colores, color-tercero);
 }
 
 footer .contenido{
@@ -28,7 +28,7 @@ footer .contenido{
 
 footer .contenido a{
     text-decoration: none;
-    color: white;
+    color: map-get($colores, color-tercero);
     line-height: 30px;
 }
 
@@ -56,7 +56,7 @@ footer .componentesfooter{
 }
 
 .textofooter{
-    color: white;
+    color: map-get($colores, color-tercero);
     font-family: 'Roboto', sans-serif;
     margin-left: -26px;
 }

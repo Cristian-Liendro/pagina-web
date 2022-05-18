@@ -2,14 +2,14 @@
 .imageninicioprimaria{
     height: 600px;
     width: 500px;
-    border: solid 2px black;
+    border: solid 2px map-get($colores, color-secundario);
     margin-left: 200px;
 }
 
 .imageniniciosecundaria{
     height: 300px;
     width: 300px;
-    border: solid 2px black;
+    border: solid 2px map-get($colores, color-secundario);
     margin-top: 50px;
 }
 
@@ -49,13 +49,13 @@
     .imageninicioprimaria{
         height: 400px;
         width: 300px;
-        border: solid 2px black;
+        border: solid 2px map-get($colores, color-secundario);
         margin-right: 50px;
     }
     .imageniniciosecundaria{
         height: 200px;
         width: 200px;
-        border: solid 2px black;
+        border: solid 2px map-get($colores, color-secundario);
     }
     .instagram__publicacion{
         display: flex;

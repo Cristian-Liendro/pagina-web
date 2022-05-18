@@ -1,12 +1,12 @@
 .TituloQuienesSomos {
     text-align: left;
     font-size: 34px;
-    color: white;
+    color: map-get($colores, color-tercero);
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 5px;
     padding: 50px;
-    text-decoration: underline 4px white;
+    text-decoration: underline 4px map-get($colores, color-tercero);
     }
 
 .textodivqs{
@@ -19,7 +19,7 @@
         text-align: left;
         font-size: 18px;
         font-family: sans-serif;
-        color: black;
+        color: map-get($colores, color-secundario);
         font-family: 'Roboto', sans-serif;
         margin-top: 160px;
         margin-left: 50px;
@@ -27,7 +27,7 @@
     
         .texto__northkids{
             font-weight: 700;
-            color: black;
+            color: map-get($colores, color-secundario);
             font-weight: bold;
             font-family: 'Roboto', sans-serif;
         }
@@ -36,7 +36,7 @@
     .fotoquienessomosnorthkids{
         height: 500px;
         width: 500px;
-        border: solid 2px black;
+        border: solid 2px map-get($colores, color-secundario);
         margin-left: 20px;
     }
 }
@@ -52,13 +52,13 @@
         .fotoquienessomosnorthkids{
             height: 300px;
             width: 300px;
-            border: solid 2px black;
+            border: solid 2px map-get($colores, color-secundario);
         }
         .InfoQuienesSomos {
             text-align: center;
             font-size: 15px;
             font-family: sans-serif;
-            color: black;
+            color: map-get($colores, color-secundario);
             font-family: 'Roboto', sans-serif;
             margin: 0;
             margin-bottom: 20px;
