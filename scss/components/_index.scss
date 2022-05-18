@@ -22,8 +22,7 @@
 
 
 .instagram__publicacion{
-    display: flex;
-    justify-content: center;
+    @include flexbox(center);
     flex-direction: row;
     margin-top: 80px;
 }
@@ -58,8 +57,7 @@
         border: solid 2px map-get($colores, color-secundario);
     }
     .instagram__publicacion{
-        display: flex;
-        justify-content: center;
+        @include flexbox(center);
         flex-direction: column;
         margin-top: 80px;
     }
@@ -84,8 +82,7 @@
     }
 
     .divimagensecundaria{
-        display: flex;
-        justify-content: center;
+        @include flexbox(center);
         flex-direction: column;
         margin-left: 250px;
     }

@@ -10,8 +10,7 @@
     }
 
 .textodivqs{
-    display: flex;
-    justify-content: center;
+    @include flexbox(center);
     margin: 30px;
     flex-direction: row;
 
@@ -43,8 +42,7 @@
 
 @media (max-width:780px){
     .textodivqs{
-        display: flex;
-        justify-content: center;
+        @include flexbox(center);
         margin: 30px;
         flex-direction: column;
         flex-basis: 100%;
