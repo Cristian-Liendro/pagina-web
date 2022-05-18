@@ -217,33 +217,30 @@
   padding: 50px;
   text-decoration: underline 4px white; }
 
-.texto__northkids {
-  font-weight: 700;
-  color: black;
-  font-weight: bold;
-  font-family: 'Roboto', sans-serif; }
-
-.InfoQuienesSomos {
-  text-align: left;
-  font-size: 18px;
-  font-family: sans-serif;
-  color: black;
-  font-family: 'Roboto', sans-serif;
-  margin-top: 160px;
-  margin-left: 50px;
-  margin-right: 50px; }
-
 .textodivqs {
   display: flex;
   justify-content: center;
   margin: 30px;
   flex-direction: row; }
-
-.fotoquienessomosnorthkids {
-  height: 500px;
-  width: 500px;
-  border: solid 2px black;
-  margin-left: 20px; }
+  .textodivqs .InfoQuienesSomos {
+    text-align: left;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 160px;
+    margin-left: 50px;
+    margin-right: 50px; }
+    .textodivqs .InfoQuienesSomos .texto__northkids {
+      font-weight: 700;
+      color: black;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif; }
+  .textodivqs .fotoquienessomosnorthkids {
+    height: 500px;
+    width: 500px;
+    border: solid 2px black;
+    margin-left: 20px; }
 
 @media (max-width: 780px) {
   .textodivqs {
@@ -252,27 +249,24 @@
     margin: 30px;
     flex-direction: column;
     flex-basis: 100%; }
-  .fotoquienessomosnorthkids {
-    height: 300px;
-    width: 300px;
-    border: solid 2px black; }
-  .InfoQuienesSomos {
-    text-align: center;
-    font-size: 15px;
-    font-family: sans-serif;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    margin-bottom: 20px; } }
-
-.textoiniciocontacto {
-  text-align: center; }
+    .textodivqs .fotoquienessomosnorthkids {
+      height: 300px;
+      width: 300px;
+      border: solid 2px black; }
+    .textodivqs .InfoQuienesSomos {
+      text-align: center;
+      font-size: 15px;
+      font-family: sans-serif;
+      color: black;
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      margin-bottom: 20px; } }
 
 .textocontactanos {
   font-size: 34px;
   font-weight: 500;
   font-family: 'Montserrat', sans-serif;
-  color: #2a2a2a;
+  color: black;
   letter-spacing: 5px; }
 
 .iconscontacto {
