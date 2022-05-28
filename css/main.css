@@ -230,7 +230,8 @@
     font-family: 'Roboto', sans-serif;
     margin-top: 160px;
     margin-left: 50px;
-    margin-right: 50px; }
+    margin-right: 50px;
+    margin-bottom: 10px; }
     .textodivqs .InfoQuienesSomos .texto__northkids {
       font-weight: 700;
       color: black;
@@ -247,7 +248,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 100%; }
+  width: 100%;
+  opacity: 0.8; }
 
 @media (max-width: 780px) {
   .textodivqs {
