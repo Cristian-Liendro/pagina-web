@@ -247,8 +247,8 @@
   background-image: url("/imagenes/ropaquienessomos.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: center;
-  opacity: 0.5; }
+  width: 100%;
+  background-position: center; }
 
 @media (max-width: 780px) {
   .textodivqs {
