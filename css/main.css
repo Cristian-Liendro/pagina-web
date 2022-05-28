@@ -243,11 +243,9 @@
     margin-left: 20px; }
 
 .quienessomosContenedor {
-  background-color: black;
-  background-image: url("/imagenes/ropaquienessomos.jpg");
+  background-image: url("../imagenes/ropaquienessomos.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
-  width: 100%;
+  background-size: cover;
   background-position: center; }
 
 @media (max-width: 780px) {
