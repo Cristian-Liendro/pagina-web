@@ -40,6 +40,14 @@
     }
 }
 
+.quienessomosContenedor{
+    background-color: black;
+    background-image: url("/imagenes/ropaquienessomos.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
 @media (max-width:780px){
     .textodivqs{
         @include flexbox(center);
