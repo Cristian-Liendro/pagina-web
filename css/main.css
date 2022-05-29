@@ -39,17 +39,35 @@
 
 .instagramlogomed {
   height: 90px;
-  width: 100px;
+  width: 110px;
   margin-top: 250px;
   padding-left: 10px;
-  padding-right: 20px; }
+  padding-right: 20px;
+  margin-right: 60px;
+  margin-left: 20px; }
 
 .textoseguinos {
   font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 900;
-  margin-top: 270px;
-  padding-left: 10px; }
+  margin-top: 270px; }
+
+.instagrammedia {
+  margin-bottom: 100px; }
+
+.textocarousel {
+  color: white;
+  font-size: 45px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000; }
+
+.descripcionTextocarousel {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000; }
 
 @media only screen and (min-width: 360px) and (max-width: 780px) {
   #carouselExampleDark {
@@ -80,7 +98,7 @@
     flex-direction: column;
     margin-left: 250px; }
   .instagrammedia {
-    width: 300px;
+    width: 350px;
     height: 400px;
     margin: auto;
     margin-bottom: 150px;
