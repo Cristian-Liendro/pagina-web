@@ -24,56 +24,12 @@
   .cabecera .textoinicio {
     text-align: center; }
 
-.imageninicioprimaria {
+#carouselExampleDark {
+  width: 550px;
   height: 600px;
-  width: 500px;
-  border: solid 2px black;
-  margin-left: 200px; }
-
-.imageniniciosecundaria {
-  height: 300px;
-  width: 300px;
-  border: solid 2px black;
-  margin-top: 50px; }
-
-.slider {
-  width: 600px;
-  height: 550px;
-  overflow: hidden;
+  border: solid black 3px;
   margin: auto;
-  margin-top: 50px;
-  border: solid black 3px; }
-
-.slider ul {
-  display: flex;
-  animation: cambio 20s infinite alternate linear;
-  width: 400%; }
-
-.slider li {
-  width: 100%;
-  list-style: none; }
-
-.slider img {
-  width: 600px;
-  height: 550px; }
-
-@keyframes cambio {
-  0% {
-    margin-left: 0; }
-  20% {
-    margin-left: 0; }
-  25% {
-    margin-left: -100%; }
-  45% {
-    margin-left: -100%; }
-  50% {
-    margin-left: -200%; }
-  70% {
-    margin-left: -200%; }
-  75% {
-    margin-left: -300%; }
-  100% {
-    margin-left: -300%; } }
+  margin-top: 20px; }
 
 .instagram__publicacion {
   display: flex;
@@ -96,23 +52,26 @@
   padding-left: 10px; }
 
 @media only screen and (min-width: 360px) and (max-width: 780px) {
+  #carouselExampleDark {
+    width: 360px;
+    height: 392px;
+    border: solid black 3px;
+    margin: auto;
+    margin-top: 20px; }
   .instagram__publicacion {
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-top: 80px; }
   .instagramlogomed {
-    height: 85px;
-    width: 85px;
-    margin-left: 320px;
-    margin-bottom: 100px;
-    margin-top: 30px; }
+    height: 70px;
+    width: 90px;
+    margin: auto; }
   .textoseguinos {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     font-weight: 900;
-    margin-left: 250px;
-    margin-top: 30px; }
+    margin: auto; }
   .divimagenprimaria {
     margin-right: 150px; }
   .divimagensecundaria {
@@ -123,7 +82,9 @@
   .instagrammedia {
     width: 300px;
     height: 400px;
-    margin-left: 180px; } }
+    margin: auto;
+    margin-bottom: 150px;
+    margin-top: 50px; } }
 
 .preciogaleria {
   text-align: center;
