@@ -373,4 +373,15 @@ footer .componentesfooter {
   footer .componentesfooter {
     flex-basis: 80%;
     margin: 0 auto;
-    margin-top: 20px; } }
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .footertextosAbajo {
+    margin-left: 50px; }
+  .contenido {
+    margin-left: 40px; }
+  .minilogoInstagram {
+    margin-left: 12px; }
+  .textofooter {
+    font-size: 15px; }
+  .footerContactos {
+    margin-left: 12px; } }
