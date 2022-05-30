@@ -23,8 +23,12 @@
                 font-weight: 600;
                 letter-spacing: 1px;
                 font-family: $fuente-principal;
-                color: map-get($colores, color-tercero);
+                color: rgb(192, 189, 189);
                 text-decoration: $text-decoration;
+            }
+
+            .active {
+                color: white;
             }
         }
     }

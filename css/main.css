@@ -19,8 +19,10 @@
         font-weight: 600;
         letter-spacing: 1px;
         font-family: "Montserrat", sans-serif;
-        color: white;
+        color: #c0bdbd;
         text-decoration: none; }
+      .cabecera .navbar .nav-item .active {
+        color: white; }
   .cabecera .textoinicio {
     text-align: center; }
 
