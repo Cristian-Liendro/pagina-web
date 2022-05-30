@@ -50,7 +50,7 @@
     opacity: 0.8;
 }
 
-@media (max-width:780px){
+@media (max-width:768px){
     .textodivqs{
         @include flexbox(center);
         margin: 30px;
