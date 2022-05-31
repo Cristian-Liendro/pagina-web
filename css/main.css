@@ -71,6 +71,9 @@
   font-size: 30px;
   text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000; }
 
+.btn-dark {
+  display: none; }
+
 @media only screen and (min-width: 360px) and (max-width: 768px) {
   #carouselExampleDark {
     width: 360px;
@@ -104,7 +107,16 @@
     height: 400px;
     margin: auto;
     margin-bottom: 150px;
-    margin-top: 50px; } }
+    margin-top: 50px; }
+  .btn-dark {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20; }
+  .productosBoton {
+    text-decoration: none; } }
 
 .preciogaleria {
   text-align: center;
