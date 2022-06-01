@@ -56,7 +56,7 @@
 }
 
 
-@media only screen and (min-width:360px) and (max-width:768px){
+@media only screen and (max-width:780px){
     #carouselExampleDark{
         width: 360px;
         height: 392px;
@@ -83,22 +83,64 @@
         margin: auto
     }
 
-    .divimagenprimaria{
-        margin-right: 150px;
-    }
-
-    .divimagensecundaria{
-        @include flexbox(center);
-        flex-direction: column;
-        margin-left: 250px;
-    }
-
     .instagrammedia{
         width: 350px;
         height: 400px;
         margin: auto;
         margin-bottom: 150px;
         margin-top: 50px;
+    }
+
+    .btn-dark{
+        display: flex;
+        justify-content: center;
+        margin:auto;
+        margin-top: 10px;
+        font-family: 'Montserrat', sans-serif;
+        padding: 20;
+    }
+
+    .productosBoton{
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width:359px){
+    #carouselExampleDark{
+        width: 250px;
+        height: 272px;
+        border: solid black 3px;
+        margin: auto;
+        margin-top: 20px
+    }
+
+    .instagram__publicacion{
+        @include flexbox(center);
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .instagramlogomed{
+        height: 50px;
+        width: 80px;
+        margin: auto;
+    }
+
+    .textoseguinos{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 32px;
+        font-weight: 900;
+        margin: auto;
+    }
+
+
+    .instagrammedia{
+        width: 150px;
+        height: 200px;
+        margin: auto;
+        margin-bottom: 350px;
+        margin-top: 50px;
+        margin-right: 200px;
     }
 
     .btn-dark{

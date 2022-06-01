@@ -2,3 +2,7 @@
     @include flexbox(center);
     flex-wrap: wrap;
 }
+
+.cuerpo{
+    background-color: map-get($colores, color-principal);
+}

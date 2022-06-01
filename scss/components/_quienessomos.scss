@@ -17,7 +17,6 @@
     .InfoQuienesSomos {
         text-align: left;
         font-size: 18px;
-        font-family: sans-serif;
         color: map-get($colores, color-secundario);
         font-family: 'Roboto', sans-serif;
         margin-top: 160px;
@@ -65,7 +64,6 @@
         .InfoQuienesSomos {
             text-align: center;
             font-size: 15px;
-            font-family: sans-serif;
             color: map-get($colores, color-secundario);
             font-family: 'Roboto', sans-serif;
             margin: 0;
