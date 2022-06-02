@@ -26,6 +26,31 @@
   .cabecera .textoinicio {
     text-align: center; }
 
+@media only screen and (max-width: 359px) {
+  .navbar {
+    padding: 2px; }
+    .navbar .nav-item {
+      padding: 0px 40px; }
+      .navbar .nav-item .nav-link {
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-family: "Montserrat", sans-serif;
+        color: #c0bdbd;
+        text-decoration: none; }
+      .navbar .nav-item .active {
+        color: white; }
+  .cabecera__imagen {
+    margin: 1px auto;
+    align-self: center;
+    display: block;
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px; }
+  .logofotoPrincipal {
+    width: 180px;
+    height: 100px; } }
+
 #carouselExampleDark {
   width: 550px;
   height: 600px;
@@ -167,6 +192,20 @@
   text-decoration: underline; }
 
 .precioproducto {
+  font-size: 21px;
+  font-weight: 900;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif; }
+
+.precioproductoComun {
+  font-size: 21px;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: line-through;
+  font-family: 'Montserrat', sans-serif; }
+
+.precioproductoOferta {
+  color: red;
   font-size: 21px;
   font-weight: 900;
   text-align: center;
@@ -446,9 +485,10 @@ footer .componentesfooter {
     margin-left: 12px; }
   .textofooter {
     font-size: 11.5px;
-    margin-top: 5px; }
+    margin-top: 10px; }
   .footerContactos {
-    margin-left: 12px; }
+    margin-right: 12px;
+    padding-right: 5px; }
   .footerinsta {
     width: 25px;
     height: 25px; }
