@@ -34,7 +34,7 @@
 }
 
 .precioproductoOferta{
-    color: red;
+    color: rgb(189, 6, 6);
     font-size: 21px;
     font-weight: 900;
     text-align: center;
@@ -99,4 +99,24 @@
 
 .container{
     padding: 45px 20px
+}
+
+@media only screen and (max-width:359px){
+    .categoriastexto{
+        font-size: 15px;
+        margin-top: -60px;
+    }
+
+    .tallestexto{
+        font-size: 16px;
+        margin-top: -60px;
+    }
+
+    .talles{
+        margin-bottom: -40px;
+    }
+
+    .listaproductos li{
+        font-size: 14px;
+    }
 }
