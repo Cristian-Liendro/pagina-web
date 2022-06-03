@@ -502,7 +502,13 @@
   .divformulario {
     margin-right: 245px;
     margin-top: 30px;
-    margin-bottom: 80px; } }
+    margin-bottom: 80px; }
+  .botonFormulario {
+    text-align: center; }
+  .textoFormulario {
+    text-align: center; }
+  .areaFormulario {
+    text-align: center; } }
 
 .main {
   display: flex;
