@@ -54,7 +54,7 @@
 @media only screen and (max-width: 359px) {
   .textoinicio {
     text-align: center;
-    font-size: 15px; } }
+    font-size: 14px; } }
 
 #carouselExampleDark {
   width: 550px;
@@ -266,16 +266,47 @@
   padding: 45px 20px; }
 
 @media only screen and (max-width: 359px) {
+  #galeria img {
+    width: 100%;
+    height: 300px; }
   .categoriastexto {
-    font-size: 15px;
+    font-size: 13px;
     margin-top: -60px; }
   .tallestexto {
-    font-size: 16px;
+    font-size: 13px;
     margin-top: -60px; }
   .talles {
     margin-bottom: -40px; }
   .listaproductos li {
-    font-size: 14px; } }
+    font-size: 13px; }
+  .nombreproducto {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px; }
+  .nombreproducto:hover {
+    color: #7E4510;
+    cursor: pointer;
+    text-decoration: underline; }
+  .precioproducto {
+    font-size: 15px;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; }
+  .precioproductoComun {
+    font-size: 15px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: line-through;
+    font-family: 'Montserrat', sans-serif; }
+  .precioproductoOferta {
+    color: #bd0606;
+    font-size: 15px;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; } }
 
 .veranoinvierno {
   margin-top: 30px;
@@ -407,6 +438,32 @@
   .divformulario {
     padding-left: 20px;
     margin-bottom: 20px; } }
+
+@media only screen and (max-width: 359px) {
+  .textocontactanos {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    letter-spacing: 5px;
+    margin-left: 35px; }
+  .iconscontacto {
+    height: 30px;
+    width: 30px;
+    margin-top: 6px; }
+  .datoscontacto {
+    font-family: 'Roboto', sans-serif; }
+  .contactotodo {
+    margin-bottom: 40px;
+    margin: auto; }
+  .localizacion {
+    height: 350px;
+    width: 280px; }
+  .localizaciondiv {
+    border: solid black 3px;
+    margin: auto; }
+  .divformulario {
+    margin: auto; } }
 
 .main {
   display: flex;

@@ -48,3 +48,43 @@
     }
 }
 
+@media only screen and (max-width: 359px){
+    .textocontactanos{
+        font-size: 24px;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+        color: map-get($colores, color-secundario);
+        letter-spacing: 5px;
+        margin-left: 35px;
+    }
+    
+    .iconscontacto{
+        height: 30px;
+        width: 30px;
+        margin-top: 6px;
+    }
+    
+    .datoscontacto{
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .contactotodo{
+        margin-bottom: 40px;
+        margin: auto;
+    }
+    
+    
+    .localizacion{
+        height: 350px;
+        width: 280px;
+    }
+    
+    .localizaciondiv{
+        border: solid black 3px;
+        margin: auto;
+    }
+    
+    .divformulario{
+    margin: auto;
+    }
+}
