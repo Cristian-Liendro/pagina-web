@@ -24,12 +24,14 @@
 
 
 .localizacion{
-    height: 280px;
+    height: 282px;
     width: 450px;
 }
 
 .localizaciondiv{
-    margin-top: 55px;
+    margin-top: 45px;
+    height: 290px;
+    border: solid black 4px;
 }
 
 .divformulario{
@@ -56,35 +58,48 @@
         color: map-get($colores, color-secundario);
         letter-spacing: 5px;
         margin-left: 35px;
+        margin-top: 20px;
     }
-    
+
+    .ulContactanos{
+        list-style: none;
+    }
+
     .iconscontacto{
         height: 30px;
         width: 30px;
         margin-top: 6px;
+        margin-left: 90px;
     }
     
     .datoscontacto{
         font-family: 'Roboto', sans-serif;
+        margin-top: 10px;
+        margin-left: 35px;
     }
     
     .contactotodo{
         margin-bottom: 40px;
-        margin: auto;
+        padding: 0;
     }
     
     
     .localizacion{
-        height: 350px;
-        width: 280px;
+        height: 340px;
+        width: 270px;
     }
     
     .localizaciondiv{
-        border: solid black 3px;
+        height: 350px;
+        width: 280px;
+        border: solid black 5px;
         margin: auto;
+        margin-top: 50px;
     }
     
     .divformulario{
-    margin: auto;
+    margin-right: 245px;
+    margin-top: 30px;
+    margin-bottom: 80px;
     }
 }
