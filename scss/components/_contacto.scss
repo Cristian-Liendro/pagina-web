@@ -182,4 +182,64 @@
     }
 }
 
+@media (min-width:768px) and (max-width: 992px){
+
+    .textocontactanos{
+        font-size: 38px;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+        color: map-get($colores, color-secundario);
+        letter-spacing: 5px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .ulContactanos{
+        list-style: none;
+    }
+
+    .iconscontacto{
+        height: 40px;
+        width: 40px;
+        margin-top: 6px;
+        margin-left: 180px;
+    }
+    
+    .datoscontacto{
+        font-family: 'Roboto', sans-serif;
+        margin-top: 10px;
+        margin-left: 110px;
+        font-size: 20px;
+    }
+    
+    .contactotodo{
+        margin-bottom: 40px;
+        padding: 0;
+    }
+
+    .divformulario{
+        margin-right: 245px;
+        margin-top: 30px;
+        margin-bottom: 80px;
+        }
+
+        .botonFormulario{
+            text-align: center;
+        }
+    
+        .btn-primary{
+            background-color: black;
+            font-family: 'Montserrat', sans-serif;
+            border: 2px solid black;
+        }
+    
+        .textoFormulario{
+            text-align: center;
+            font-size: 20px;
+        }
+    
+        .areaFormulario{
+            text-align: center;
+        }
+}
 
