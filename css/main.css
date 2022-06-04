@@ -291,6 +291,48 @@
 .container {
   padding: 45px 20px; }
 
+@media only screen and (max-width: 780px) {
+  .categoriastexto {
+    font-size: 18px;
+    text-align: center;
+    margin-right: 25px;
+    margin-top: -45px; }
+  .tallestexto {
+    font-size: 18px;
+    margin-top: -60px;
+    text-align: center;
+    margin-right: 25px; }
+  .talles {
+    margin-bottom: -40px; }
+  .listaproductos li {
+    font-size: 13px;
+    text-align: center;
+    margin-right: 25px; }
+  .nombreproducto {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px; }
+  .precioproducto {
+    font-size: 15px;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; }
+  .precioproductoComun {
+    font-size: 15px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: line-through;
+    font-family: 'Montserrat', sans-serif; }
+  .precioproductoOferta {
+    color: #bd0606;
+    font-size: 15px;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; } }
+
 @media only screen and (max-width: 359px) {
   #galeria img {
     width: 100%;
