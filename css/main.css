@@ -115,6 +115,9 @@
   font-weight: 900;
   margin-top: 270px; }
 
+.fotoinstagramResponsive {
+  display: none; }
+
 .instagrammedia {
   margin-bottom: 100px; }
 
@@ -255,13 +258,21 @@
     font-size: 32px;
     font-weight: 900;
     margin: auto; }
+  .fotoinstagramResponsive {
+    display: flex;
+    width: 280px;
+    height: 350px;
+    margin-bottom: 50px;
+    margin-left: 22px;
+    margin-top: 20px; }
   .instagrammedia {
     width: 150px;
     height: 200px;
     margin: auto;
     margin-bottom: 350px;
     margin-top: 50px;
-    margin-right: 200px; }
+    margin-right: 200px;
+    display: none; }
   .btn-dark {
     display: flex;
     justify-content: center;
