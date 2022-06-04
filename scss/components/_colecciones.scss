@@ -2,15 +2,19 @@
     margin-top: 30px;
     text-align: $text-align;
 
-    .verano:hover{
+    .verano{
         border: $border-tipo 4px map-get($colores, color-secundario);
         background-color: map-get($colores, color-secundario);
         color: map-get($colores, color-tercero);
         margin: 10px;
         text-align: $text-align;
         padding: 4px;
+    }
+
+    .verano:hover{
         cursor: pointer;
     }
+
     .invierno:hover{
         border: $border-tipo 4px map-get($colores, color-secundario);
         background-color: map-get($colores, color-secundario);
@@ -20,6 +24,15 @@
         padding: 4px;
         cursor: pointer;
     }
+}
+
+.coleccionveranologo{
+    width: 300px;
+    height: 260px;
+    margin-top: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: -20px;
 }
 
 #galeriacolecciones img{
@@ -37,9 +50,36 @@
     padding: 25px;
 }
 
+@media only screen and (max-width: 780px){
+    #galeriacolecciones .fotosColecciones{
+        width: 100%;
+        height: 300px;
+    }
+
+    .coleccionveranologo{
+        width: 210px;
+        height: 190px;
+        margin-top: 10px;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: -20px;
+    }
+}
+
 @media only screen and (max-width: 359px){
     #galeriacolecciones .fotosColecciones{
         width: 100%;
         height: 280px;
     }
+
+    .coleccionveranologo{
+        width: 200px;
+        height: 180px;
+        margin-top: 10px;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: -20px;
+    }
 }
+
+
