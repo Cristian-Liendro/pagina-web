@@ -539,6 +539,11 @@
 .divformulario {
   padding-left: 250px; }
 
+.btn-primary {
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+  border: 2px solid black; }
+
 @media only screen and (max-width: 768px) {
   .textocontactanos {
     font-size: 24px;
@@ -620,6 +625,10 @@
     margin-bottom: 80px; }
   .botonFormulario {
     text-align: center; }
+  .btn-primary {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid black; }
   .textoFormulario {
     text-align: center; }
   .areaFormulario {
