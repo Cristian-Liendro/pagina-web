@@ -210,12 +210,12 @@
   .btn-dark {
     display: flex;
     justify-content: center;
-    margin: auto;
     margin-top: 20px;
     font-family: 'Montserrat', sans-serif;
     padding: 20; }
   .productosBoton {
-    text-decoration: none; } }
+    text-decoration: none;
+    color: white; } }
 
 .preciogaleria {
   text-align: center;
