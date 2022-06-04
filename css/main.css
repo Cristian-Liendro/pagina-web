@@ -483,6 +483,32 @@
     text-align: center;
     font-family: 'Montserrat', sans-serif; } }
 
+@media (min-width: 768px) and (max-width: 992px) {
+  .categoriastexto {
+    font-size: 28px;
+    text-align: center;
+    margin-right: 25px;
+    margin-top: -45px; }
+  .tallestexto {
+    font-size: 28px;
+    margin-top: -60px;
+    text-align: center;
+    margin-right: 25px; }
+  .talles {
+    margin-bottom: -40px; }
+  .listaproductos li {
+    font-size: 22px;
+    text-align: center;
+    margin-right: 25px;
+    margin-top: 10px; }
+  .nombreproducto {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px; } }
+
 .veranoinvierno {
   margin-top: 30px;
   text-align: center; }
@@ -546,6 +572,19 @@
     margin: auto;
     margin-top: 40px;
     margin-bottom: -20px; } }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .coleccionveranologo {
+    width: 230px;
+    height: 220px;
+    margin-top: 10px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: -20px; }
+  .verano {
+    font-size: 30px; }
+  .invierno {
+    font-size: 30px; } }
 
 .TituloQuienesSomos {
   text-align: left;
