@@ -38,15 +38,69 @@
     padding-left: 250px;
 }
 
-@media only screen and (min-width:360px) and (max-width:768px){
-    .localizacion{
-        height: 250px;
-        width: 300px;
-
+@media only screen and (max-width:768px){
+    .textocontactanos{
+        font-size: 24px;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+        color: map-get($colores, color-secundario);
+        letter-spacing: 5px;
+        margin-left: 35px;
+        margin-top: 20px;
     }
+
+    .ulContactanos{
+        list-style: none;
+    }
+
+    .iconscontacto{
+        height: 30px;
+        width: 30px;
+        margin-top: 6px;
+        margin-left: 90px;
+    }
+    
+    .datoscontacto{
+        font-family: 'Roboto', sans-serif;
+        margin-top: 10px;
+        margin-left: 35px;
+    }
+    
+    .contactotodo{
+        margin-bottom: 40px;
+        padding: 0;
+    }
+    
+    
+    .localizacion{
+        height: 340px;
+        width: 270px;
+    }
+    
+    .localizaciondiv{
+        height: 350px;
+        width: 280px;
+        border: solid black 5px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    
     .divformulario{
-        padding-left: 20px;
-        margin-bottom: 20px;
+    margin-right: 245px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    }
+
+    .botonFormulario{
+        text-align: center;
+    }
+
+    .textoFormulario{
+        text-align: center;
+    }
+
+    .areaFormulario{
+        text-align: center;
     }
 }
 

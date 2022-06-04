@@ -27,7 +27,7 @@
     height: 350px;
 
     &:hover{
-        border: 3px $border-tipo map-get($colores, color-secundario);
+        border: 3px $border-tipo rgb(192, 91, 7);
         cursor: pointer;
     }
 }
