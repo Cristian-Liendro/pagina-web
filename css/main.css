@@ -82,6 +82,11 @@
     text-align: center;
     font-size: 14px; } }
 
+@media (min-width: 768px) and (max-width: 992px) {
+  .textoinicio {
+    text-align: center;
+    font-size: 22px; } }
+
 #carouselExampleDark {
   width: 550px;
   height: 599px;
@@ -588,10 +593,11 @@
 
 .TituloQuienesSomos {
   text-align: left;
-  font-size: 34px;
   color: white;
-  font-weight: 500;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
   letter-spacing: 5px;
   padding: 50px;
   text-decoration: underline 4px white; }
@@ -630,6 +636,17 @@
   opacity: 0.8; }
 
 @media (max-width: 767px) {
+  .TituloQuienesSomos {
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    padding: 50px;
+    text-decoration: underline 4px white; }
   .textodivqs {
     display: flex;
     justify-content: center;
@@ -637,8 +654,8 @@
     flex-direction: column;
     flex-basis: 100%; }
     .textodivqs .fotoquienessomosnorthkids {
-      height: 300px;
-      width: 300px;
+      height: 280px;
+      width: 280px;
       border: solid 2px black; }
     .textodivqs .InfoQuienesSomos {
       text-align: center;
@@ -649,6 +666,15 @@
       margin-bottom: 20px; } }
 
 @media only screen and (max-width: 359px) {
+  .TituloQuienesSomos {
+    text-align: center;
+    font-size: 34px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    padding: 50px;
+    text-decoration: underline 4px white; }
   .textodivqs {
     display: flex;
     justify-content: center;
@@ -660,6 +686,35 @@
       width: 250px;
       margin: auto;
       margin-left: 5px;
+      border: solid 2px black; }
+    .textodivqs .InfoQuienesSomos {
+      text-align: center;
+      font-size: 15px;
+      color: black;
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      margin-bottom: 20px; } }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .TituloQuienesSomos {
+    text-align: center;
+    font-size: 34px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    padding: 50px;
+    text-decoration: underline 4px white; }
+  .textodivqs {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    flex-direction: column;
+    flex-basis: 100%; }
+    .textodivqs .fotoquienessomosnorthkids {
+      height: 300px;
+      width: 300px;
+      margin-left: 240px;
       border: solid 2px black; }
     .textodivqs .InfoQuienesSomos {
       text-align: center;
