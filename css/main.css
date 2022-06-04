@@ -622,7 +622,7 @@
   font-family: 'Montserrat', sans-serif;
   border: 2px solid black; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .textocontactanos {
     font-size: 24px;
     font-weight: 500;
@@ -663,8 +663,7 @@
   .textoFormulario {
     text-align: center; }
   .areaFormulario {
-    text-align: center;
-    border: solid black 2px; } }
+    text-align: center; } }
 
 @media only screen and (max-width: 359px) {
   .textocontactanos {
