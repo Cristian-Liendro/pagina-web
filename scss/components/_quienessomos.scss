@@ -1,4 +1,13 @@
-.TituloQuienesSomos {
+.quienessomosContenedor{
+    background-image: url("../imagenes/ropaquienessomos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    opacity: 0.8;
+}  
+
+.TituloQuienesSomos{
     text-align: left;
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -8,14 +17,14 @@
     letter-spacing: 5px;
     padding: 50px;
     text-decoration: underline 4px map-get($colores, color-tercero);
-    }
+}
 
 .textodivqs{
     @include flexbox(center);
     margin: 30px;
     flex-direction: row;
 
-    .InfoQuienesSomos {
+    .InfoQuienesSomos{
         text-align: left;
         font-size: 18px;
         color: map-get($colores, color-secundario);
@@ -41,15 +50,6 @@
     }
 }
 
-.quienessomosContenedor{
-    background-image: url("../imagenes/ropaquienessomos.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    opacity: 0.8;
-}
-
 @media (max-width:767px){
     .TituloQuienesSomos{
         text-align: center;
@@ -73,11 +73,11 @@
 }
 
 @media only screen and (max-width: 359px){
-    .TituloQuienesSomos {
+    .TituloQuienesSomos{
         text-align: center;
         font-size: 34px;
         font-weight: 500;
-        }
+    }
 
     .textodivqs{
         flex-direction: column;
@@ -99,11 +99,11 @@
 }
 
 @media (min-width:768px) and (max-width: 992px){
-    .TituloQuienesSomos {
+    .TituloQuienesSomos{
         text-align: center;
         font-size: 34px;
         font-weight: 500;
-        }
+    }
 
     .textodivqs{
         flex-direction: column;
