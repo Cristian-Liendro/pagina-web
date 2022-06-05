@@ -101,7 +101,7 @@
     padding: 45px 20px
 }
 
-@media only screen and (max-width:767px){
+@media (max-width:767px){
     .categoriastexto{
         font-size: 18px;
         text-align: center;
@@ -140,7 +140,7 @@
 }
 
 
-@media only screen and (max-width:359px){
+@media (max-width:359px){
 
     #galeria img{
         height: 300px;
