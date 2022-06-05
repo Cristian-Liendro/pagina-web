@@ -55,49 +55,6 @@
 }
 
 
-@media (max-width:540px){
-    #carouselExampleDark{
-        width: 320px;
-        height: 349px;
-    }
-
-    .instagram__publicacion{
-        flex-direction: column;
-    }
-
-    .instagramlogomed{
-        height: 70px;
-        width: 90px;
-        margin: auto;
-    }
-
-    .textoseguinos{
-        font-size: 40px;
-        margin: auto
-    }
-
-    .instagrammedia{
-        width: 350px;
-        height: 400px;
-        margin: auto;
-        margin-bottom: 150px;
-        margin-top: 50px;
-    }
-
-    .btn-dark{
-        display: flex;
-        justify-content: center;
-        margin:auto;
-        margin-top: 10px;
-        font-family: 'Montserrat', sans-serif;
-        padding: 20;
-    }
-
-    .productosBoton{
-        text-decoration: none;
-    }
-}
-
 @media (max-width: 767px){
     #carouselExampleDark{
         width: 260px;
@@ -139,11 +96,7 @@
     }
 
     .btn-dark{
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-        font-family: 'Montserrat', sans-serif;
-        padding: 20;
+        @include boton;
     }
 
     .productosBoton{
@@ -192,21 +145,11 @@
     }
 
     .instagrammedia{
-        width: 150px;
-        height: 200px;
-        margin: auto;
-        margin-bottom: 350px;
-        margin-top: 50px;
-        margin-right: 200px;
         display: none;
     }
 
     .btn-dark{
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-        font-family: 'Montserrat', sans-serif;
-        padding: 20;
+    @include boton;
     }
 
     .productosBoton{

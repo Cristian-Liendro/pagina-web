@@ -37,21 +37,15 @@ footer .componentesfooter{
 }
 
 .footerwpp{
-    height: 30px;
-    width: 30px;
-    margin-left: 18px;
+    @include imagenesfooter (18px);
 }
 
 .footerinsta{
-    height: 30px;
-    width: 30px;
-    margin-left: 18px;
+    @include imagenesfooter (18px);
 }
 
 .footermail{
-    height: 30px;
-    width: 30px;
-    margin-left: 26px;
+    @include imagenesfooter (26px);
 }
 
 .textofooter{
@@ -97,18 +91,15 @@ footer .componentesfooter{
     }
 
     .footerinsta{
-        width: 25px;
-        height: 25px;
+        @include imagenesfooterresponsive;
     }
 
     .footerwpp{
-        width: 25px;
-        height: 25px;
+        @include imagenesfooterresponsive;
     }
 
     .footermail{
-        width: 25px;
-        height: 25px;
+    @include imagenesfooterresponsive;
     }
 }
 
@@ -148,18 +139,15 @@ footer .componentesfooter{
     }
 
     .footerinsta{
-        width: 25px;
-        height: 25px;
+        @include imagenesfooterresponsive;
     }
 
     .footerwpp{
-        width: 25px;
-        height: 25px;
+        @include imagenesfooterresponsive;
     }
 
     .footermail{
-        width: 25px;
-        height: 25px;
+        @include imagenesfooterresponsive;
     }
 }
 

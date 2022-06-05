@@ -40,3 +40,23 @@ $colores:(
     text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
     color: white;
 }
+
+@mixin boton{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20;
+}
+
+@mixin imagenesfooter ($marginleft){
+    height: 30px;
+    width: 30px;
+    margin-left: $marginleft;
+}
+
+@mixin imagenesfooterresponsive{
+    width: 25px;
+    height: 25px;
+}
