@@ -26,27 +26,7 @@
   .cabecera .textoinicio {
     text-align: center; }
 
-@media only screen and (max-width: 767px) {
-  .navbar {
-    padding: 2px; }
-    .navbar .nav-item {
-      padding: 0px 40px; }
-      .navbar .nav-item .nav-link {
-        font-size: 20px;
-        font-weight: 600;
-        letter-spacing: 1px;
-        font-family: "Montserrat", sans-serif;
-        color: #c0bdbd;
-        text-decoration: none; }
-      .navbar .nav-item .active {
-        color: white; }
-  .cabecera__imagen {
-    margin: 1px auto;
-    align-self: center;
-    display: block;
-    max-width: 100%;
-    margin-bottom: 20px;
-    margin-top: 20px; }
+@media (max-width: 767px) {
   .logofotoPrincipal {
     width: 210px;
     height: 120px; }
@@ -54,27 +34,7 @@
     text-align: center;
     font-size: 16px; } }
 
-@media only screen and (max-width: 359px) {
-  .navbar {
-    padding: 2px; }
-    .navbar .nav-item {
-      padding: 0px 40px; }
-      .navbar .nav-item .nav-link {
-        font-size: 20px;
-        font-weight: 600;
-        letter-spacing: 1px;
-        font-family: "Montserrat", sans-serif;
-        color: #c0bdbd;
-        text-decoration: none; }
-      .navbar .nav-item .active {
-        color: white; }
-  .cabecera__imagen {
-    margin: 1px auto;
-    align-self: center;
-    display: block;
-    max-width: 100%;
-    margin-bottom: 20px;
-    margin-top: 20px; }
+@media (max-width: 359px) {
   .logofotoPrincipal {
     width: 180px;
     height: 100px; }
@@ -141,23 +101,15 @@
 @media only screen and (max-width: 540px) {
   #carouselExampleDark {
     width: 320px;
-    height: 349px;
-    border: solid black 3px;
-    margin: auto;
-    margin-top: 20px; }
+    height: 349px; }
   .instagram__publicacion {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 80px; }
+    flex-direction: column; }
   .instagramlogomed {
     height: 70px;
     width: 90px;
     margin: auto; }
   .textoseguinos {
-    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
-    font-weight: 900;
     margin: auto; }
   .instagrammedia {
     width: 350px;
@@ -178,25 +130,12 @@
 @media only screen and (max-width: 767px) {
   #carouselExampleDark {
     width: 260px;
-    height: 283px;
-    border: solid black 3px;
-    margin: auto;
-    margin-top: 20px; }
+    height: 283px; }
   .textocarousel {
-    color: white;
-    font-size: 25px;
-    font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
-    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000; }
+    font-size: 25px; }
   .descripcionTextocarousel {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 15px;
-    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000; }
+    font-size: 15px; }
   .instagram__publicacion {
-    display: flex;
-    justify-content: center;
     flex-direction: column;
     margin-top: 50px; }
   .instagramlogomed {
@@ -206,7 +145,6 @@
   .textoseguinos {
     font-family: 'Montserrat', sans-serif;
     font-size: 32px;
-    font-weight: 900;
     margin: auto; }
   .instagrammedia {
     width: 150px;
@@ -228,25 +166,12 @@
 @media only screen and (max-width: 359px) {
   #carouselExampleDark {
     width: 260px;
-    height: 284px;
-    border: solid black 3px;
-    margin: auto;
-    margin-top: 20px; }
+    height: 284px; }
   .textocarousel {
-    color: white;
-    font-size: 25px;
-    font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
-    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000; }
+    font-size: 25px; }
   .descripcionTextocarousel {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 15px;
-    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000; }
+    font-size: 15px; }
   .instagram__publicacion {
-    display: flex;
-    justify-content: center;
     flex-direction: column;
     margin-top: 50px; }
   .instagramlogomed {
@@ -254,9 +179,7 @@
     width: 80px;
     margin: auto; }
   .textoseguinos {
-    font-family: 'Montserrat', sans-serif;
     font-size: 32px;
-    font-weight: 900;
     margin: auto; }
   .fotoinstagramResponsive {
     display: flex;
@@ -287,37 +210,21 @@
   #carouselExampleDark {
     width: 400px;
     height: 435px;
-    border: solid black 4px;
-    margin: auto;
-    margin-top: 20px; }
+    border: solid black 4px; }
   .textocarousel {
-    color: white;
-    font-size: 30px;
-    font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
-    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000; }
+    font-size: 30px; }
   .descripcionTextocarousel {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 25px;
-    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000; }
+    font-size: 25px; }
   .instagram__publicacion {
-    display: flex;
-    justify-content: center;
     flex-direction: row;
     margin-top: 50px; }
   .instagramlogomed {
     height: 80px;
     width: 100px;
-    margin-top: 250px;
     padding-left: 5px;
-    margin-right: 30px;
-    margin-left: 20px; }
+    margin-right: 30px; }
   .textoseguinos {
-    font-family: 'Montserrat', sans-serif;
     font-size: 50px;
-    font-weight: 900;
     margin-top: 260px;
     margin-left: 200px; }
   .instagrammedia {
@@ -431,34 +338,15 @@
     font-size: 13px;
     text-align: center;
     margin-right: 25px; }
-  .nombreproducto {
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 10px; }
   .precioproducto {
-    font-size: 15px;
-    font-weight: 900;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif; }
+    font-size: 15px; }
   .precioproductoComun {
-    font-size: 15px;
-    font-weight: 900;
-    text-align: center;
-    text-decoration: line-through;
-    font-family: 'Montserrat', sans-serif; }
+    font-size: 15px; }
   .precioproductoOferta {
-    color: #bd0606;
-    font-size: 15px;
-    font-weight: 900;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif; } }
+    font-size: 15px; } }
 
 @media only screen and (max-width: 359px) {
   #galeria img {
-    width: 100%;
     height: 300px; }
   .categoriastexto {
     font-size: 14px;
@@ -471,45 +359,25 @@
   .listaproductos li {
     font-size: 13px; }
   .nombreproducto {
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 10px; }
-  .nombreproducto:hover {
-    color: #7E4510;
-    cursor: pointer;
-    text-decoration: underline; }
+    font-size: 11px; }
   .precioproducto {
-    font-size: 15px;
-    font-weight: 900;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif; }
+    font-size: 15px; }
   .precioproductoComun {
-    font-size: 15px;
-    font-weight: 900;
-    text-align: center;
-    text-decoration: line-through;
-    font-family: 'Montserrat', sans-serif; }
+    font-size: 15px; }
   .precioproductoOferta {
-    color: #bd0606;
-    font-size: 15px;
-    font-weight: 900;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif; } }
+    font-size: 15px; } }
 
 @media (min-width: 768px) and (max-width: 992px) {
   .categoriastexto {
     font-size: 28px;
-    text-align: center;
     margin-right: 25px;
-    margin-top: -45px; }
+    margin-top: -45px;
+    text-align: center; }
   .tallestexto {
     font-size: 28px;
     margin-top: -60px;
-    text-align: center;
-    margin-right: 25px; }
+    margin-right: 25px;
+    text-align: center; }
   .talles {
     margin-bottom: -40px; }
   .listaproductos li {
@@ -518,12 +386,7 @@
     margin-right: 25px;
     margin-top: 10px; }
   .nombreproducto {
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 10px; } }
+    font-size: 18px; } }
 
 .veranoinvierno {
   margin-top: 30px;
@@ -551,7 +414,6 @@
   height: 260px;
   margin-top: 10px;
   margin: auto;
-  margin-top: 20px;
   margin-bottom: -20px; }
 
 #galeriacolecciones img {
@@ -572,10 +434,7 @@
   .coleccionveranologo {
     width: 210px;
     height: 190px;
-    margin-top: 10px;
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: -20px; } }
+    margin-top: 40px; } }
 
 @media only screen and (max-width: 359px) {
   #galeriacolecciones .fotosColecciones {
@@ -584,19 +443,13 @@
   .coleccionveranologo {
     width: 200px;
     height: 180px;
-    margin-top: 10px;
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: -20px; } }
+    margin-top: 40px; } }
 
 @media (min-width: 768px) and (max-width: 992px) {
   .coleccionveranologo {
     width: 230px;
     height: 220px;
-    margin-top: 10px;
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: -20px; }
+    margin-top: 40px; }
   .verano {
     font-size: 30px; }
   .invierno {
@@ -648,31 +501,16 @@
 
 @media (max-width: 767px) {
   .TituloQuienesSomos {
-    text-align: center;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 30px;
-    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 5px;
-    padding: 50px;
-    text-decoration: underline 4px white; }
+    text-align: center; }
   .textodivqs {
-    display: flex;
-    justify-content: center;
-    margin: 30px;
     flex-direction: column;
     flex-basis: 100%; }
     .textodivqs .fotoquienessomosnorthkids {
       height: 280px;
-      width: 280px;
-      border: solid 2px black; }
+      width: 280px; }
     .textodivqs .InfoQuienesSomos {
       text-align: center;
       font-size: 15px;
-      color: black;
-      font-family: 'Roboto', sans-serif;
       margin: 0;
       margin-bottom: 20px; } }
 
@@ -680,29 +518,18 @@
   .TituloQuienesSomos {
     text-align: center;
     font-size: 34px;
-    color: white;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 5px;
-    padding: 50px;
-    text-decoration: underline 4px white; }
+    font-weight: 500; }
   .textodivqs {
-    display: flex;
-    justify-content: center;
-    margin: 30px;
     flex-direction: column;
     flex-basis: 100%; }
     .textodivqs .fotoquienessomosnorthkids {
       height: 250px;
       width: 250px;
       margin: auto;
-      margin-left: 5px;
-      border: solid 2px black; }
+      margin-left: 5px; }
     .textodivqs .InfoQuienesSomos {
       text-align: center;
       font-size: 15px;
-      color: black;
-      font-family: 'Roboto', sans-serif;
       margin: 0;
       margin-bottom: 20px; } }
 
@@ -710,28 +537,17 @@
   .TituloQuienesSomos {
     text-align: center;
     font-size: 34px;
-    color: white;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 5px;
-    padding: 50px;
-    text-decoration: underline 4px white; }
+    font-weight: 500; }
   .textodivqs {
-    display: flex;
-    justify-content: center;
-    margin: 30px;
     flex-direction: column;
     flex-basis: 100%; }
     .textodivqs .fotoquienessomosnorthkids {
       height: 300px;
       width: 300px;
-      margin-left: 240px;
-      border: solid 2px black; }
+      margin-left: 240px; }
     .textodivqs .InfoQuienesSomos {
       text-align: center;
       font-size: 15px;
-      color: black;
-      font-family: 'Roboto', sans-serif;
       margin: 0;
       margin-bottom: 20px; } }
 
@@ -775,21 +591,13 @@
 @media only screen and (max-width: 767px) {
   .textocontactanos {
     font-size: 24px;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    letter-spacing: 5px;
     margin-left: 35px;
     margin-top: 20px; }
   .ulContactanos {
     list-style: none; }
   .iconscontacto {
-    height: 30px;
-    width: 30px;
-    margin-top: 6px;
     margin-left: 90px; }
   .datoscontacto {
-    font-family: 'Roboto', sans-serif;
     margin-top: 10px;
     margin-left: 35px; }
   .contactotodo {
@@ -818,21 +626,13 @@
 @media only screen and (max-width: 359px) {
   .textocontactanos {
     font-size: 24px;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    letter-spacing: 5px;
     margin-left: 35px;
     margin-top: 20px; }
   .ulContactanos {
     list-style: none; }
   .iconscontacto {
-    height: 30px;
-    width: 30px;
-    margin-top: 6px;
     margin-left: 90px; }
   .datoscontacto {
-    font-family: 'Roboto', sans-serif;
     margin-top: 10px;
     margin-left: 35px; }
   .contactotodo {
@@ -853,10 +653,6 @@
     margin-bottom: 80px; }
   .botonFormulario {
     text-align: center; }
-  .btn-primary {
-    background-color: black;
-    font-family: 'Montserrat', sans-serif;
-    border: 2px solid black; }
   .textoFormulario {
     text-align: center; }
   .areaFormulario {
@@ -865,10 +661,6 @@
 @media (min-width: 768px) and (max-width: 992px) {
   .textocontactanos {
     font-size: 38px;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    letter-spacing: 5px;
     text-align: center;
     margin-top: 20px; }
   .ulContactanos {
@@ -876,10 +668,8 @@
   .iconscontacto {
     height: 40px;
     width: 40px;
-    margin-top: 6px;
     margin-left: 180px; }
   .datoscontacto {
-    font-family: 'Roboto', sans-serif;
     margin-top: 10px;
     margin-left: 110px;
     font-size: 20px; }
@@ -892,10 +682,6 @@
     margin-bottom: 80px; }
   .botonFormulario {
     text-align: center; }
-  .btn-primary {
-    background-color: black;
-    font-family: 'Montserrat', sans-serif;
-    border: 2px solid black; }
   .textoFormulario {
     text-align: center;
     font-size: 20px; }
@@ -968,16 +754,31 @@ footer .componentesfooter {
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px; }
+  footer .componentesfooter h3 {
+    font-size: 15px; }
   .footertextosAbajo {
-    margin-left: 50px; }
-  .contenido {
     margin-left: 40px; }
+  .contenido {
+    margin-left: 20px;
+    font-size: 14px; }
   .minilogoInstagram {
     margin-left: 12px; }
   .textofooter {
-    font-size: 15px; }
+    font-size: 11.5px;
+    margin-top: 10px;
+    margin-left: 1px; }
   .footerContactos {
-    margin-left: 12px; } }
+    margin-right: 12px;
+    padding-right: 5px; }
+  .footerinsta {
+    width: 25px;
+    height: 25px; }
+  .footerwpp {
+    width: 25px;
+    height: 25px; }
+  .footermail {
+    width: 25px;
+    height: 25px; } }
 
 @media only screen and (max-width: 359px) {
   footer .componentesfooter {

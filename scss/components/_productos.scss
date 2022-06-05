@@ -126,36 +126,16 @@
         margin-right: 25px;
     }
 
-    .nombreproducto{
-        font-size: 14px;
-        font-weight: 600;
-        letter-spacing: 1px;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-        margin-top: 10px;
-    }
-
     .precioproducto{
         font-size: 15px;
-        font-weight: 900;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
     }
     
     .precioproductoComun{
         font-size: 15px;
-        font-weight: 900;
-        text-align: center;
-        text-decoration: line-through;
-        font-family: 'Montserrat', sans-serif;
     }
     
     .precioproductoOferta{
-        color: rgb(189, 6, 6);
         font-size: 15px;
-        font-weight: 900;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
     }
 }
 
@@ -163,7 +143,6 @@
 @media only screen and (max-width:359px){
 
     #galeria img{
-        width: 100%;
         height: 300px;
     }
 
@@ -186,57 +165,35 @@
     }
 
     .nombreproducto{
-        font-size: 14px;
-        font-weight: 600;
-        letter-spacing: 1px;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-        margin-top: 10px;
+        font-size: 11px;
     }
-    
-    .nombreproducto:hover{
-        color: #7E4510;
-        cursor: pointer;
-        text-decoration: underline;
-    }
-    
+
     .precioproducto{
         font-size: 15px;
-        font-weight: 900;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
     }
-    
+
     .precioproductoComun{
         font-size: 15px;
-        font-weight: 900;
-        text-align: center;
-        text-decoration: line-through;
-        font-family: 'Montserrat', sans-serif;
     }
-    
+
     .precioproductoOferta{
-        color: rgb(189, 6, 6);
         font-size: 15px;
-        font-weight: 900;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
     }
 }
 
 @media (min-width:768px) and (max-width: 992px){
     .categoriastexto{
         font-size: 28px;
-        text-align: center;
         margin-right: 25px;
         margin-top: -45px;
+        text-align: center;
     }
 
     .tallestexto{
         font-size: 28px;
         margin-top: -60px;
-        text-align: center;
         margin-right: 25px;
+        text-align: center;
     }
 
     .talles{
@@ -252,10 +209,5 @@
 
     .nombreproducto{
         font-size: 18px;
-        font-weight: 600;
-        letter-spacing: 1px;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-        margin-top: 10px;
     }
 }

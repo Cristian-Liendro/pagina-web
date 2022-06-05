@@ -51,35 +51,21 @@
 }
 
 @media (max-width:767px){
-    .TituloQuienesSomos {
+    .TituloQuienesSomos{
         text-align: center;
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 900;
-        font-size: 30px;
-        text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
-        font-family: 'Montserrat', sans-serif;
-        letter-spacing: 5px;
-        padding: 50px;
-        text-decoration: underline 4px map-get($colores, color-tercero);
         }
 
     .textodivqs{
-        @include flexbox(center);
-        margin: 30px;
         flex-direction: column;
         flex-basis: 100%;
 
         .fotoquienessomosnorthkids{
             height: 280px;
             width: 280px;
-            border: solid 2px map-get($colores, color-secundario);
         }
-        .InfoQuienesSomos {
+        .InfoQuienesSomos{
             text-align: center;
             font-size: 15px;
-            color: map-get($colores, color-secundario);
-            font-family: 'Roboto', sans-serif;
             margin: 0;
             margin-bottom: 20px;
         }
@@ -90,18 +76,10 @@
     .TituloQuienesSomos {
         text-align: center;
         font-size: 34px;
-        color: map-get($colores, color-tercero);
         font-weight: 500;
-        font-family: 'Montserrat', sans-serif;
-        letter-spacing: 5px;
-        padding: 50px;
-        text-decoration: underline 4px map-get($colores, color-tercero);
         }
 
-
     .textodivqs{
-        @include flexbox(center);
-        margin: 30px;
         flex-direction: column;
         flex-basis: 100%;
 
@@ -110,13 +88,10 @@
             width: 250px;
             margin: auto;
             margin-left: 5px;
-            border: solid 2px map-get($colores, color-secundario);
         }
         .InfoQuienesSomos {
             text-align: center;
             font-size: 15px;
-            color: map-get($colores, color-secundario);
-            font-family: 'Roboto', sans-serif;
             margin: 0;
             margin-bottom: 20px;
         }
@@ -127,17 +102,10 @@
     .TituloQuienesSomos {
         text-align: center;
         font-size: 34px;
-        color: map-get($colores, color-tercero);
         font-weight: 500;
-        font-family: 'Montserrat', sans-serif;
-        letter-spacing: 5px;
-        padding: 50px;
-        text-decoration: underline 4px map-get($colores, color-tercero);
         }
 
     .textodivqs{
-        @include flexbox(center);
-        margin: 30px;
         flex-direction: column;
         flex-basis: 100%;
 
@@ -145,13 +113,10 @@
             height: 300px;
             width: 300px;
             margin-left: 240px;
-            border: solid 2px map-get($colores, color-secundario);
         }
         .InfoQuienesSomos {
             text-align: center;
             font-size: 15px;
-            color: map-get($colores, color-secundario);
-            font-family: 'Roboto', sans-serif;
             margin: 0;
             margin-bottom: 20px;
         }

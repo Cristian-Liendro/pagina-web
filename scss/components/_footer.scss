@@ -68,12 +68,17 @@ footer .componentesfooter{
         margin-bottom: 20px;
     }
 
+    footer .componentesfooter h3{
+        font-size: 15px;
+    }
+
     .footertextosAbajo{
-        margin-left: 50px;
+        margin-left: 40px;
     }
 
     .contenido{
-        margin-left: 40px;
+        margin-left: 20px;
+        font-size: 14px;
     }
 
     .minilogoInstagram{
@@ -81,11 +86,29 @@ footer .componentesfooter{
     }
 
     .textofooter{
-        font-size: 15px;
+        font-size: 11.5px;
+        margin-top: 10px;
+        margin-left: 1px;
     }
 
     .footerContactos{
-        margin-left: 12px;
+        margin-right: 12px;
+        padding-right: 5px;
+    }
+
+    .footerinsta{
+        width: 25px;
+        height: 25px;
+    }
+
+    .footerwpp{
+        width: 25px;
+        height: 25px;
+    }
+
+    .footermail{
+        width: 25px;
+        height: 25px;
     }
 }
 

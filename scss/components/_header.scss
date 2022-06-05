@@ -38,37 +38,7 @@
     }
 }
 
-@media only screen and (max-width:767px){
-
-    .navbar{
-        padding: 2px;
-
-        .nav-item{
-            padding: 0px 40px;
-
-            .nav-link{
-                font-size: 20px;
-                font-weight: 600;
-                letter-spacing: 1px;
-                font-family: $fuente-principal;
-                color: rgb(192, 189, 189);
-                text-decoration: $text-decoration;
-            }
-            .active {
-                color: white;
-            }
-        }
-    }
-
-    .cabecera__imagen{
-        margin: 1px auto;
-        align-self: center;
-        display: block;
-        max-width: 100%;
-        margin-bottom: 20px;
-        margin-top: 20px;
-    }
-
+@media (max-width:767px){
     .logofotoPrincipal{
         width: 210px;
         height: 120px;
@@ -81,37 +51,7 @@
 }
 
 
-@media only screen and (max-width: 359px){
-
-    .navbar{
-        padding: 2px;
-
-        .nav-item{
-            padding: 0px 40px;
-
-            .nav-link{
-                font-size: 20px;
-                font-weight: 600;
-                letter-spacing: 1px;
-                font-family: $fuente-principal;
-                color: rgb(192, 189, 189);
-                text-decoration: $text-decoration;
-            }
-            .active {
-                color: white;
-            }
-        }
-    }
-
-    .cabecera__imagen{
-        margin: 1px auto;
-        align-self: center;
-        display: block;
-        max-width: 100%;
-        margin-bottom: 20px;
-        margin-top: 20px;
-    }
-
+@media (max-width: 359px){
     .logofotoPrincipal{
         width: 180px;
         height: 100px;
