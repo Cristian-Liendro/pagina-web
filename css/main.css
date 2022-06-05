@@ -82,18 +82,18 @@
   margin-bottom: 100px; }
 
 .textocarousel {
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
   color: white;
   font-size: 45px;
-  font-weight: 400;
-  font-family: 'Montserrat', sans-serif;
-  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000; }
+  font-weight: 400; }
 
 .descripcionTextocarousel {
-  color: white;
   font-family: 'Montserrat', sans-serif;
+  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+  color: white;
   font-weight: 900;
-  font-size: 30px;
-  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000; }
+  font-size: 30px; }
 
 .btn-dark {
   display: none; }

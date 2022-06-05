@@ -34,3 +34,9 @@ $colores:(
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
+
+@mixin carrouseltexto{
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+    color: white;
+}
