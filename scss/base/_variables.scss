@@ -21,3 +21,16 @@ $colores:(
     display: flex;
     justify-content: $justify;
 }
+
+@mixin precioproductos{
+    font-size: 21px;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@mixin textocategoriaproductos{
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}

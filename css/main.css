@@ -262,8 +262,8 @@
   font-size: 21px;
   font-weight: 900;
   text-align: center;
-  text-decoration: line-through;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: line-through; }
 
 .precioproductoOferta {
   color: #bd0606;

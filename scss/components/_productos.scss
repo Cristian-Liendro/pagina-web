@@ -19,26 +19,17 @@
 }
 
 .precioproducto{
-    font-size: 21px;
-    font-weight: 900;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    @include precioproductos;
 }
 
 .precioproductoComun{
-    font-size: 21px;
-    font-weight: 900;
-    text-align: center;
+    @include precioproductos;
     text-decoration: line-through;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .precioproductoOferta{
     color: rgb(189, 6, 6);
-    font-size: 21px;
-    font-weight: 900;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    @include precioproductos;
 }
 
 #galeria img{
@@ -82,9 +73,7 @@
 }
 
 .tallestexto{
-    letter-spacing: 2px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    @include textocategoriaproductos;
 }
 
 .categorias{
@@ -92,9 +81,7 @@
 }
 
 .categoriastexto{
-    letter-spacing: 2px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    @include textocategoriaproductos;
 }
 
 .container{
